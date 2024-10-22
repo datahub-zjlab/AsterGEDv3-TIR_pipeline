@@ -18,6 +18,9 @@ The output files are as follows:
 
 2. Check the main functions from _example.ipynb_
 
+3. After config the oss and related tokens in _config_save.py_, run the main script 
+
+`python TIR_Pipeline_multiprocessor.py`
 ### **Method**
 
 ASTER-GEDV3 data is product-level data for the Aster thermal infrared 5-channel bands, jointly released by NASA's Jet Propulsion Laboratory (JPL) (http://10.200.48.72:30000/portal/dataset?id=1821942), named b10, b11, b12, b13, and b14, respectively. After the following calculations, the 5-channel functional group data is obtained, which constitutes this dataset.
